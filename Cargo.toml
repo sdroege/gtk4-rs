@@ -28,3 +28,21 @@ members = [
 ]
 
 exclude = ["checker", "gir", "book/listings"]
+
+[patch."https://github.com/gtk-rs/gtk-rs-core"]
+glib-sys = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+gobject-sys = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+glib = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+gio-sys = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+gio = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+pango-sys = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+pango = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+pangocairo-sys = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+pangocairo = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+cairo-rs = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+cairo-sys-rs = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+gdk-pixbuf-sys = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+gdk-pixbuf = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+glib-build-tools = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+graphene-sys = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
+graphene-rs = { git = "https://github.com/sdroege/gtk-rs-core", branch = "impl-trait-without-object-reference" }
